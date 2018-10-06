@@ -2,9 +2,15 @@
 #define MODEL_H
 
 #include <QObject>
+#include "piece.h"
+
 
 class Model
 {
+    QVector <Piece *> whitePieces;
+    QVector <Piece *> blackPieces;
+
+
 public:
     Model();
 };

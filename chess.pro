@@ -27,9 +27,14 @@ SOURCES += \
         main.cpp \
     control.cpp \
     view.cpp \
-    model.cpp
+    model.cpp \
+    piece.cpp
 
 HEADERS += \
     control.h \
     view.h \
-    model.h
+    model.h \
+    piece.h
+
+RESOURCES += \
+    res.qrc

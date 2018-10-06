@@ -1,6 +1,11 @@
 #include "piece.h"
 
-Piece::Piece()
+Piece::~Piece()
+{
+
+}
+
+Piece::Piece() : QGraphicsItem()
 {
 
 }
