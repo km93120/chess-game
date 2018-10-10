@@ -28,13 +28,29 @@ SOURCES += \
     control.cpp \
     view.cpp \
     model.cpp \
-    piece.cpp
+    piece.cpp \
+    rook.cpp \
+    bishop.cpp \
+    knight.cpp \
+    pawn.cpp \
+    king.cpp \
+    queen.cpp \
+    board.cpp \
+    state.cpp
 
 HEADERS += \
     control.h \
     view.h \
     model.h \
-    piece.h
+    piece.h \
+    rook.h \
+    bishop.h \
+    knight.h \
+    pawn.h \
+    king.h \
+    queen.h \
+    board.h \
+    state.h
 
 RESOURCES += \
     res.qrc

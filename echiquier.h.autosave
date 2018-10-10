@@ -1,0 +1,14 @@
+#ifndef ECHIQUIER_H
+#define ECHIQUIER_H
+
+
+#include <QGraphicsPixmapItem>
+
+
+class Echiquier : public QGraphicsPixmapItem
+{
+public:
+    Echiquier();
+};
+
+#endif // ECHIQUIER_H

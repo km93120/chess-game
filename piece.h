@@ -1,10 +1,11 @@
 #ifndef PIECE_H
 #define PIECE_H
 
-#include <QGraphicsItem>
+#include <QGraphicsPixmapItem>
 
 
-class Piece : public QGraphicsItem
+
+class Piece : public QGraphicsPixmapItem
 {
 protected:
 
@@ -13,9 +14,9 @@ protected:
     int y;
 
 public:
-    void virtual moveAcrossBoard()  = 0 ;
+    void virtual moveAcrossBoard() = 0;
     ~Piece();
-    Piece();
+    Piece(char,int,int);
 
 
 };

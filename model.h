@@ -2,17 +2,18 @@
 #define MODEL_H
 
 #include <QObject>
-#include "piece.h"
+
+#include "state.h"
 
 
 class Model
 {
-    QVector <Piece *> whitePieces;
-    QVector <Piece *> blackPieces;
+    State  * state;
 
 
 public:
     Model();
+    State *getState() const;
 };
 
 #endif // MODEL_H

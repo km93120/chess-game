@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     Control * c  = new Control();
     Model * model = new Model();
     View * view = new View();
-   // c->setParams(model,view);
+    c->setParams(model,view);
 
 
 

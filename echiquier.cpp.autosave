@@ -1,0 +1,7 @@
+#include "echiquier.h"
+
+Echiquier::Echiquier() : QGraphicsPixmapItem()
+{
+    setPixmap(QPixmap(":/echiquier.png").scaled(400,400));
+    
+}

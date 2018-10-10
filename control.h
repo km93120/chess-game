@@ -11,11 +11,12 @@ class Control : public QWidget
 {
     Q_OBJECT
 
-    View   * view;
-    Model  * model;
+    View   *  view;
+    Model  *  model;
 public:
     explicit Control(QWidget *parent = nullptr);
 
+    void setParams(Model * model, View * view);
 signals:
 
 public slots:
